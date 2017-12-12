@@ -1,0 +1,43 @@
+body {
+  background-color: blue !important;
+  background-image: url("http://res.cloudinary.com/dbsgnowkn/image/upload/v1511036567/grass1_r91mfu.jpg");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+#woodsign2 {
+  width: 80%;
+}
+
+#gameboard {
+  margin: 120px auto 0;
+  width: 375px;
+  height: 100px;
+}
+
+.grids {
+  width: 32%;
+  height: 120px;
+  float: left;
+  border: 10px solid #b18a53;
+  font-size: 75px;
+  font-family: Arial;
+  text-align: center;
+}
+
+#rolePlay {
+  margin: 55px auto;
+}
+
+#roleX, #roleO, #chooseX, #chooseO {
+  width: 50%;
+}
+
+#aiTurn, #huTurn {
+  width: 45%;
+}
+
+#all {
+  margin: 0 auto;
+}
